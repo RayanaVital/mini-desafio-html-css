@@ -1,0 +1,32 @@
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: pink;
+    color: black;
+    text-align: center;
+}
+
+
+.footer-itens {
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    width: 100%;
+    min-height: 50px;
+}
+
+.footer-itens p {
+    float:center;
+    text-align: center;
+    
+    
+}
+
+.footer-itens h3 {
+    float: right;
+    margin-right: 1vw;
+    margin-bottom: 1vw;
+}
